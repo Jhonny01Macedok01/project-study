@@ -6,12 +6,12 @@ import com.project1.project_study.core.utils.ApiObjectMapper;
 import com.project1.project_study.models.UserModel;
 import com.project1.project_study.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
+
 
 @Service
 @RequiredArgsConstructor

@@ -17,7 +17,9 @@ public class CategoryService {
     private final ApiObjectMapper<Category> apiObjectMapper;
 
     public List<Category> findAll() {
+
         return categoryRepository.findAll();
+
     }
 
     @Transactional
