@@ -8,7 +8,7 @@ import java.util.Set;
 
 public record UserDTO(
         @NotBlank
-        String nome,
+        String name,
 
         @NotBlank
         @Email
